@@ -192,7 +192,6 @@ img {
   align-items: center;
   justify-content: center; 
 }
-
 .features-list {
     display: flex;
     align-items: center;
@@ -202,7 +201,6 @@ img {
 .features-item {
     width: calc ( (1128- 3 * 24) / 4);
 }
-
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -212,7 +210,6 @@ img {
     margin-bottom: 8px;
     width: 264px;
 }
-
 .features-item-text {
     font-size: 16px;
     line-height: 1.5;
@@ -235,9 +232,10 @@ img {
     align-items: center;
     justify-content: center;
 }
-/* .icon-features {
-    width: 64;   
-} */
+.icon-features {
+    width: 64;  
+    height: 64;   
+}
 /*___________________________________________*/
 /*______________________TEAM__________________*/
 .team {
