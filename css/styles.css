@@ -134,15 +134,15 @@ img {
     background-image: linear-gradient(to bottom,
     rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    max-width: 1440px;
+    background-position: center;
+    background-size: cover;  
 } 
 .hero-container {
     display: block;
     align-items: center;
     padding-right: 331px;
     padding-left: 331px;
+    max-width: 1440px;
 }   
 .hero-title {
     font-weight: 700;
@@ -237,9 +237,9 @@ img {
 }
 .icon-features {   
 }
-svg {
-    width: 64px;
-    height: 64px;
+.svg {
+    width: 64;
+    height: 64;
 }
 /*___________________________________________*/
 /*______________________TEAM__________________*/
@@ -447,13 +447,13 @@ svg {
     
 }
 
-.footer-list {
+/* .footer-list {
     display: flex;
     align-items: baseline;
 }
 .footer-item {
     width: calc ( (1128 - 1 * 120) / 2);
-}
+} */
 .logo-text-container {
     margin-right: 120px
 }
@@ -465,13 +465,12 @@ svg {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    }
- 
-    .logo {
-        width: 115px;
-        display: inline-block;
-        margin-bottom: 16px;     
-    }  
+}
+.logo {
+    width: 115px;
+    display: inline-block;
+    margin-bottom: 16px;     
+}  
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
@@ -488,17 +487,17 @@ svg {
     margin-bottom: 16px;
     content: Social media;
     margin-bottom: 16px;
-    }
-    .icon-footer-container {
+}
+.icon-footer-container {
     display: block;
     align-items: center;
-    }
-    .icon-footer-list {
+}
+.icon-footer-list {
     display: flex;
     align-items: baseline;
     gap: 16px;  
-    }
-    .icon-footer-item {
+}
+.icon-footer-item {
     padding-top: 8px;
     padding-right: 8px;
     padding-bottom: 8px;
@@ -506,13 +505,8 @@ svg {
     width: 40px;
     height: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .icon-footer {
-    
-    
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-svg {
+.svg {
     width: 24px;
     height: 24px;
     fill: #f4f4fd;
