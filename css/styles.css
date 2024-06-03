@@ -135,14 +135,14 @@ img {
     rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;  
+    background-size: cover; 
+    max-width: 1440px;
 } 
 .hero-container {
     display: block;
     align-items: center;
     padding-right: 331px;
     padding-left: 331px;
-    max-width: 1440px;
 }   
 .hero-title {
     font-weight: 700;
@@ -235,8 +235,9 @@ img {
     align-items: center;
     justify-content: center;
 }
-.icon-features {   
-}
+/* .icon-features {
+    width: 64;   
+} */
 .svg {
     width: 64;
     height: 64;
