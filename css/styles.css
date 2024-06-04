@@ -300,30 +300,21 @@ img {
     color: #434455;
     margin-bottom: 8px;
 }
-.icon-team-container {
-    display: flex;
-    justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    
-}
+
 .icon-list {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 24px;
 }
 .link-team {
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 12px;
-    padding-left: 12px;
     width: 100px;
     height: 100px;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;    
 }
 .icon-item { 
     width: 40px;
