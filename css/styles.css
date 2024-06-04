@@ -301,33 +301,40 @@ img {
     margin-bottom: 8px;
 }
 .icon-team-container {
-    display: block;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
 }
 .icon-list {
     display: flex;
     align-items: center;
     gap: 24px;
-    width: 232px;
-    height: 40px;  
 }
-.icon-item {
+.link-team {
     padding-top: 12px;
     padding-right: 12px;
     padding-bottom: 12px;
     padding-left: 12px;
+    width: 100px;
+    height: 100px;
     background-color: #4d5ae5;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
     display: flex;
     align-items: center;
+    justify-content: center; 
 }
-.icon-item:hover {
+.icon-item { 
+    width: 40px;
+    height: 40px; 
+}
+.link-team:hover {
     background-color: #404bbf;
-}   
+}
+.link-team:focus {
+    background-color: #404bbf;
+}     
 .icon-team {
     fill: #f4f4fd;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
